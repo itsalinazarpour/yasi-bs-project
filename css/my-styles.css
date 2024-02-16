@@ -11,7 +11,7 @@ h2 {
 }
 
 .bg-bl {
-  background:url(../masjedsoleyman-bg.jpg);
+  background: url(../masjedsoleyman-bg.jpg);
 }
 
 .g-morf {
@@ -22,4 +22,8 @@ h2 {
   -webkit-backdrop-filter: blur(0px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+li::marker {
+  font-size: 0;
 }
